@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class Ejercicio4 extends JFrame implements ActionListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JTextField num1, num2, resultado;
 	private JButton restar, sumar, multiplicar, dividir, cerrar, about;
 	private JLabel titulo, txt1, txt2, result;
